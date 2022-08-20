@@ -1,0 +1,24 @@
+@use "./../../styles/vars";
+
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 400px;
+
+    .heroImage {
+        background-image: url("https://cdn.vox-cdn.com/thumbor/LkWqXsl11wI-1gU9OnoflNoWDVI=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22309695/all_your_base_are_belong_to_us.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 350px;
+        width: 350px;
+    }
+
+    .heroText {
+        font-weight: bold;
+        font-size: 36px;
+        color: vars.$purp;
+    }
+}

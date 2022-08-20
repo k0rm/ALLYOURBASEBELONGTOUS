@@ -1,0 +1,32 @@
+@use "./../../styles/vars";
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: vars.$main;
+    height: 10vh;
+    width: 100%;
+
+    .navLogo {
+        color: vars.$secondary;
+    }
+
+    .navLinks {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        color: vars.$secondary;
+
+
+        .navLink {
+            font-weight: bold;
+        }
+
+        .nl {
+            text-decoration: none;
+            color: vars.$secondary;
+        }
+    }
+}
